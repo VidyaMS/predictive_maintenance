@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+   <body>
+      <font size = "+2"> Machine failure Prediction  : </font><br>
+      <br>
+        <table border =1 >
+        {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+        <h3><a href = "\download" > download the predictions </a></h3>
+        <h3><a href = "\">go back to home page</a></h3>
+   </body>
+
+
